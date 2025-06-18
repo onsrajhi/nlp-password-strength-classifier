@@ -1,0 +1,38 @@
+# Ignore folders for large files and datasets
+/data/
+/models/
+/logs/
+
+# Ignore common large file extensions
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.npz
+*.npy
+*.joblib
+*.pkl
+
+# Python and virtualenv stuff
+__pycache__/
+*.pyc
+venv/
+.env/
+
+# Flask and DB files
+instance/
+*.db
+*.sqlite3
+
+# IDE and OS stuff
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build folders
+build/
+dist/
+*.egg-info/
